@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../contrib/epee/include/readline_buffer.h
+streambuf
+-
+sstream
+-
+vector
+-
+
+/mnt/d/ubuntu/5/sumokoin/contrib/epee/src/readline_buffer.cpp
+readline_buffer.h
+/mnt/d/ubuntu/5/sumokoin/contrib/epee/src/readline_buffer.h
+readline/readline.h
+-
+readline/history.h
+-
+iostream
+-
+boost/thread/mutex.hpp
+-
+boost/thread/lock_guard.hpp
+-
+boost/algorithm/string.hpp
+-
+

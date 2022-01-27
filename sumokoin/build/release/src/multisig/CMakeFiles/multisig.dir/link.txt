@@ -1,0 +1,2 @@
+/usr/bin/ccache /usr/bin/ar qc libmultisig.a  CMakeFiles/obj_multisig.dir/multisig.cpp.o
+/usr/bin/ccache /usr/bin/ranlib libmultisig.a

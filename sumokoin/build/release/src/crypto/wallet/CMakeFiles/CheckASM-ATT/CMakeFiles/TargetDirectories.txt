@@ -1,0 +1,2 @@
+/mnt/d/ubuntu/5/sumokoin/build/release/src/crypto/wallet/CMakeFiles/CheckASM-ATT/CMakeFiles/rebuild_cache.dir
+/mnt/d/ubuntu/5/sumokoin/build/release/src/crypto/wallet/CMakeFiles/CheckASM-ATT/CMakeFiles/edit_cache.dir

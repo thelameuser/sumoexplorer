@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../src/version.h
+
+/mnt/d/ubuntu/5/sumokoin/build/release/version.cpp
+version.h
+/mnt/d/ubuntu/5/sumokoin/build/release/version.h
+

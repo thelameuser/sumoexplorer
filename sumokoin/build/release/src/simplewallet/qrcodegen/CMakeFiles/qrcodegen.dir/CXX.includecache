@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/ubuntu/5/sumokoin/src/simplewallet/qrcodegen/QrCode.cpp
+algorithm
+-
+climits
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+sstream
+-
+stdexcept
+-
+utility
+-
+QrCode.hpp
+/mnt/d/ubuntu/5/sumokoin/src/simplewallet/qrcodegen/QrCode.hpp
+
+/mnt/d/ubuntu/5/sumokoin/src/simplewallet/qrcodegen/QrCode.hpp
+array
+-
+cstdint
+-
+stdexcept
+-
+string
+-
+vector
+-
+

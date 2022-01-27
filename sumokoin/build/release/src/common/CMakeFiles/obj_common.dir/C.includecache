@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/ubuntu/5/sumokoin/src/common/aligned.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdint.h
+-
+string.h
+-
+aligned.h
+/mnt/d/ubuntu/5/sumokoin/src/common/aligned.h
+
+/mnt/d/ubuntu/5/sumokoin/src/common/aligned.h
+

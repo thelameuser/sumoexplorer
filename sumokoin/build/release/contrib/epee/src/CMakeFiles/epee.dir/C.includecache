@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../contrib/epee/include/memwipe.h
+array
+-
+
+/mnt/d/ubuntu/5/sumokoin/contrib/epee/src/memwipe.c
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+unistd.h
+-
+strings.h
+-
+memwipe.h
+/mnt/d/ubuntu/5/sumokoin/contrib/epee/src/memwipe.h
+

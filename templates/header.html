@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+         <!-- favicon -->
+     <link rel="icon" type="image/png"  href="//sumokoin.org/favicon.png">
+       <link rel="manifest" href="//sumokoin.org/manifest.json">
+    <meta name="apple-mobile-web-app-title" content="Sumokoin">
+    <meta name="application-name" content="Sumokoin">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">    {{#refresh}}
+        <meta http-equiv="refresh" content="10">
+    {{/refresh}}
+    <title>Sumokoin Blockchain Explorer</title>
+    <!--<link rel="stylesheet" type="text/css" href="/css/style.css">-->
+    <style type="text/css">
+        {{#css_styles}}{{/css_styles}}
+    </style>
+
+    {{#js_files}}{{/js_files}}
+
+</head>
+<body>
+  <div class="container">
+    <header>
+   <div class="search">
+<div align="center">
+        <form action="/search" method="get" class="pure-form">
+            <input type="text" name="value"
+                   placeholder="block height, block hash, transaction hash, public address">
+            <input type="submit" value="Search" class="pure-button pure-button-active">
+        </form>
+      </div>
+</div>
+
+      <div class="logo">
+	<a href="/">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAABZCAMAAAAguslPAAACIlBMVEUAAAD////////////////////////////////+//////////////////////////////////////////////8unuAun+D///////////////////////////////8qnNv///////8un+Aunt4tnt0tnt7///8rndwsntz///////////////////////8rndsuoOD///8tnt4tn+D///8unt7///8snt3///////////8umdovn+D///////////////////////////8tnNsunt4und7///8un+Atnt4snd3///8rm90rnNoumNgtnNwsnd0pmNstntz///////////////////////8rm9svoOErouAundz///8tnt3///////////////////////////////////8tnt4unt0vn94nntsuouApndf///8cv+glsOH///80kuAtnNv///8tm9ovndwblNgtndwrm9snmdoYktgkmNohl9ktn98uoOAtnt0tnd0uoeEVkdcTkNcfltlquOYpmtsdldnb7/lSruJxvef2+/7G5faMyex5wOluu+dJquC53vOQy+x/w+lEp9/t9/zh8fpZseM/pd45ot0Pjtf6/f+s2PEzn93l8/vB4vWn1vCi0+8voePT6vjz+f3d8Pqy2/Ka0O6HxutftOTQ6ffM5/Zmt+Xv+Pzp9fuVze2ExuppueYtnN3X7fk0lN7gc8rGAAAAc3RSTlMAjAn3sQKW+hb+3KNO/PGUJQ1aUQT+8KeeOOvBd2QbCt/Y2MKnjVQ8Le6afGtGKQbq48iykYFcWVYwLRf3ybezQDo1HxTz5NHOuZhybmBVS0EmIxHFq4WBXxHeqnt6dWdIB8u+mG5LFKSgdjdSRuVlHNNJoYNpDgAAC7lJREFUeNrkmPdX01AUgC97CFZEaEVFyhLrAARkqajg3gvce2/NpWmS7mEryB4KCrgV3Ov/M++l0EFfUX8LfufQk3Ig5Xt3EvgTlh5cVr27qqhgS/7OqtN7bpU0JcD/QNP+64Xbs39wdpvTzjmcTqvpx7r8iqq9B2F201R99XiWyW61m7hWGeXF5LBmOWxlO66XwKxl2c6tTrvJwRHfYBT/H87siuqlMAsp3VdhtzmIJxcR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" alt="Sumokoin" width="200" height="67">
+	</a>
+      </div>
+ <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+<div align="left">
+	<ul class="pure-menu-list">
+	  <li class="pure-menu-item"><a href="/" class="pure-menu-link">Main page</a></li>
+	  <li class="pure-menu-item"><a href="/txpool" class="pure-menu-link">Transaction pool</a></li>
+	  <li class="pure-menu-item"><a href="/rawtx" class="pure-menu-link">Transaction pusher</a></li>
+	  <li class="pure-menu-item"><a href="/rawkeyimgs" class="pure-menu-link">Key images checker</a></li>
+	  <li class="pure-menu-item"><a href="/rawoutputkeys" class="pure-menu-link">Output keys checker</a></li>
+	<li class="pure-menu-item"><a href="https://sumokoin.org" class="pure-menu-link">Sumokoin Official Site</a></li>  
+	</ul>
+      </div>
+    </div>
+    </header>
