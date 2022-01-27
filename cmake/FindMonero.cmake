@@ -44,7 +44,7 @@ foreach (l ${LIBS})
 	find_library(Xmr_${L}_LIBRARY
 		NAMES ${l}
 		PATHS ${CMAKE_LIBRARY_PATH}
-		PATH_SUFFIXES "/src/${l}" "/src/" "/external/db_drivers/lib${l}" "/lib" "/src/crypto" "/contrib/epee/src" "/external/easylogging++/"
+		PATH_SUFFIXES "/src/${l}" "/src/" "/src/lmdb/db_drivers" "/src/lmdb/db_drivers/lib${l}" "/lib" "/src/crypto" "/contrib/epee/src" "/thirdparty/easylogging++/"
 		NO_DEFAULT_PATH
 	)
 
@@ -70,8 +70,9 @@ message(STATUS ${MONERO_SOURCE_DIR}/build)
 # include monero headers
 include_directories(
 		${MONERO_SOURCE_DIR}/src
+		${MONERO_SOURCE_DIR}/src/lmdb/db_drivers
 		${MONERO_SOURCE_DIR}/external
 		${MONERO_SOURCE_DIR}/build
-		${MONERO_SOURCE_DIR}/external/easylogging++
+		${MONERO_SOURCE_DIR}/thirdparty/easylogging++
 		${MONERO_SOURCE_DIR}/contrib/epee/include
 		${MONERO_SOURCE_DIR}/external/db_drivers/liblmdb)
