@@ -14,7 +14,7 @@ endif()
 
 
 if (NOT MONERO_DIR)
-    set(MONERO_DIR ~/sumokoin)
+    set(MONERO_DIR /home/runner/work/sumoexplorer/sumokoin)
 endif()
 
 message(STATUS MONERO_DIR ": ${MONERO_DIR}")
