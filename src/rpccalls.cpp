@@ -21,7 +21,7 @@ rpccalls::rpccalls(string _deamon_url,
 
     m_http_client.set_server(
             deamon_url,
-            boost::optional<epee::net_utils::http::login>{});
+            std::optional<epee::net_utils::http::login>{});
 }
 
 bool
